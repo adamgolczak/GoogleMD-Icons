@@ -1,0 +1,6 @@
+use_frameworks!
+target 'GoogleMD-Icons_Tests' do
+  pod 'GoogleMD-Icons', :path => '../'
+  
+  
+end
