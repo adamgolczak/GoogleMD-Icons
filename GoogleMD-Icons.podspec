@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GoogleMD-Icons'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of GoogleMD-Icons.'
+  s.version          = '1.0.0'
+  s.summary          = 'Google Material Design Icons Library'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -32,9 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'GoogleMD-Icons/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'GoogleMD-Icons' => ['GoogleMD-Icons/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'GoogleMD-Icons' => ['GoogleMD-Icons/Assets/*.ttf']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

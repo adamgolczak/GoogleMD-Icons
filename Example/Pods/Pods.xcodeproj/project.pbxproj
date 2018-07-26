@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DD942DE63E896C020BBDED7A7803749 /* Pods-GoogleMD-Icons_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2C434240BAF4AA82F6365374BBD0F7 /* Pods-GoogleMD-Icons_Tests-dummy.m */; };
+		5FF17E2398983C81552EF82A45E164E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		93DBC7D6597CA1DA57CADFF1C49F8C3B /* GoogleMD-Icons-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B215D2F360B3D2C8030037A488E3D6 /* GoogleMD-Icons-dummy.m */; };
+		9EE2F4A1947DDEC93DFAA2D40B6C4B4A /* GoogleMD-Icons-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96A83996724F329712DAC4C662965B2A /* GoogleMD-Icons-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A309534827CBFBF544EA39376E39C44D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D2DD39E9A01CF1B5B0214AFB5E7D35F1 /* Pods-GoogleMD-Icons_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1A28E6FF9D84B8E0195E5A7B7043C2F /* Pods-GoogleMD-Icons_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D79E303F83AD983AD7E9700DF397667A /* GoogleMDIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA42367B77F67D207127DC3893EFAAE2 /* GoogleMDIcons.swift */; };
+		F9752FB1210A67B8001A5A8E /* GoogleMDIconsType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9752FB0210A67B8001A5A8E /* GoogleMDIconsType.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		272E8E959944190BE92576005C9EC653 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB8A65A119B03A3C7C8A08F29845F894;
+			remoteInfo = "GoogleMD-Icons";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CF14F01E9297E317DE613539982C648 /* Pods-GoogleMD-Icons_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GoogleMD-Icons_Tests.modulemap"; sourceTree = "<group>"; };
+		1D3BC66A22B8DDBA42890A0D4864BE6A /* GoogleMD_Icons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GoogleMD_Icons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F2092C52EEAC13BDA6A18A67CD6B8AE /* Pods-GoogleMD-Icons_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GoogleMD-Icons_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4A8673F7857434E9F5E01943899DC152 /* Pods-GoogleMD-Icons_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GoogleMD-Icons_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4B3ED0E74195971F72846F9DFA953418 /* Pods-GoogleMD-Icons_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GoogleMD-Icons_Tests-resources.sh"; sourceTree = "<group>"; };
+		5A2097564BC550BA61957F6D88189FDF /* Pods-GoogleMD-Icons_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoogleMD-Icons_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6736E671C00CBCAC5F3F845BF86D30F8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		67BA6BD3E487910FF30B8C6A2DEDFF36 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7CBFB865482100537E523371191B025C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		925B75415757460E2F416BF02F87BF1B /* GoogleMD-Icons-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleMD-Icons-prefix.pch"; sourceTree = "<group>"; };
+		9372B9D38E66CC51C11319C367F2C6E6 /* GoogleMD-Icons.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = "GoogleMD-Icons.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96A83996724F329712DAC4C662965B2A /* GoogleMD-Icons-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleMD-Icons-umbrella.h"; sourceTree = "<group>"; };
+		9CF79F6ECB0A71C5A5B720875E2273D9 /* Pods-GoogleMD-Icons_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoogleMD-Icons_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9EFB6A2C2A8F2EEAA7E58A47E1E96D02 /* GoogleMD-Icons.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "GoogleMD-Icons.xcconfig"; sourceTree = "<group>"; };
+		A1A28E6FF9D84B8E0195E5A7B7043C2F /* Pods-GoogleMD-Icons_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GoogleMD-Icons_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A36E0C0BF9AC92EA0C0F48B6BFFFB58A /* GoogleMD-Icons.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "GoogleMD-Icons.modulemap"; sourceTree = "<group>"; };
+		A7CEB05DD9344B244B80A1F7571E4CDA /* Pods-GoogleMD-Icons_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GoogleMD-Icons_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		AA2C434240BAF4AA82F6365374BBD0F7 /* Pods-GoogleMD-Icons_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GoogleMD-Icons_Tests-dummy.m"; sourceTree = "<group>"; };
+		C3B215D2F360B3D2C8030037A488E3D6 /* GoogleMD-Icons-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleMD-Icons-dummy.m"; sourceTree = "<group>"; };
+		D4638C6FB8574BC89EDC4F5F2ADB9F9A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4078F6A5F092D2DC81A06B5E503A475 /* Pods_GoogleMD_Icons_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleMD_Icons_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9752FB0210A67B8001A5A8E /* GoogleMDIconsType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GoogleMDIconsType.swift; path = "GoogleMD-Icons/Classes/GoogleMDIconsType.swift"; sourceTree = "<group>"; };
+		F9752FB4210A6B10001A5A8E /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MaterialIcons.ttf; path = "GoogleMD-Icons/Assets/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		FA42367B77F67D207127DC3893EFAAE2 /* GoogleMDIcons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GoogleMDIcons.swift; path = "GoogleMD-Icons/Classes/GoogleMDIcons.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46AA07C95A52F0DB5C18943C8B77CD5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A309534827CBFBF544EA39376E39C44D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC078022DE503F507E5C73852B29CF59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF17E2398983C81552EF82A45E164E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22EC5547781A7A0BA9B1C52A6D580676 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A36E0C0BF9AC92EA0C0F48B6BFFFB58A /* GoogleMD-Icons.modulemap */,
+				9EFB6A2C2A8F2EEAA7E58A47E1E96D02 /* GoogleMD-Icons.xcconfig */,
+				C3B215D2F360B3D2C8030037A488E3D6 /* GoogleMD-Icons-dummy.m */,
+				925B75415757460E2F416BF02F87BF1B /* GoogleMD-Icons-prefix.pch */,
+				96A83996724F329712DAC4C662965B2A /* GoogleMD-Icons-umbrella.h */,
+				7CBFB865482100537E523371191B025C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GoogleMD-Icons";
+			sourceTree = "<group>";
+		};
+		32145C5D2A1AE16C93546E95F1E6D594 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8FDCD800AFD5EEF86C4AF5BB236C1EB /* GoogleMD-Icons */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3915C0EE86CFB8C67F662BB91505C1B9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E66393DDED00A2E9987A418DA02D6D3 /* Pods-GoogleMD-Icons_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4E66393DDED00A2E9987A418DA02D6D3 /* Pods-GoogleMD-Icons_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D4638C6FB8574BC89EDC4F5F2ADB9F9A /* Info.plist */,
+				1CF14F01E9297E317DE613539982C648 /* Pods-GoogleMD-Icons_Tests.modulemap */,
+				4A8673F7857434E9F5E01943899DC152 /* Pods-GoogleMD-Icons_Tests-acknowledgements.markdown */,
+				1F2092C52EEAC13BDA6A18A67CD6B8AE /* Pods-GoogleMD-Icons_Tests-acknowledgements.plist */,
+				AA2C434240BAF4AA82F6365374BBD0F7 /* Pods-GoogleMD-Icons_Tests-dummy.m */,
+				A7CEB05DD9344B244B80A1F7571E4CDA /* Pods-GoogleMD-Icons_Tests-frameworks.sh */,
+				4B3ED0E74195971F72846F9DFA953418 /* Pods-GoogleMD-Icons_Tests-resources.sh */,
+				A1A28E6FF9D84B8E0195E5A7B7043C2F /* Pods-GoogleMD-Icons_Tests-umbrella.h */,
+				5A2097564BC550BA61957F6D88189FDF /* Pods-GoogleMD-Icons_Tests.debug.xcconfig */,
+				9CF79F6ECB0A71C5A5B720875E2273D9 /* Pods-GoogleMD-Icons_Tests.release.xcconfig */,
+			);
+			name = "Pods-GoogleMD-Icons_Tests";
+			path = "Target Support Files/Pods-GoogleMD-Icons_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				32145C5D2A1AE16C93546E95F1E6D594 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B34BC5404EFA1E6BC317A0385ECDE015 /* Products */,
+				3915C0EE86CFB8C67F662BB91505C1B9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B34BC5404EFA1E6BC317A0385ECDE015 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D3BC66A22B8DDBA42890A0D4864BE6A /* GoogleMD_Icons.framework */,
+				F4078F6A5F092D2DC81A06B5E503A475 /* Pods_GoogleMD_Icons_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D6943E6F8373741956C1B87516FB5BFF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9372B9D38E66CC51C11319C367F2C6E6 /* GoogleMD-Icons.podspec */,
+				6736E671C00CBCAC5F3F845BF86D30F8 /* LICENSE */,
+				67BA6BD3E487910FF30B8C6A2DEDFF36 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E8FDCD800AFD5EEF86C4AF5BB236C1EB /* GoogleMD-Icons */ = {
+			isa = PBXGroup;
+			children = (
+				FA42367B77F67D207127DC3893EFAAE2 /* GoogleMDIcons.swift */,
+				F9752FB0210A67B8001A5A8E /* GoogleMDIconsType.swift */,
+				F9752FB4210A6B10001A5A8E /* MaterialIcons.ttf */,
+				D6943E6F8373741956C1B87516FB5BFF /* Pod */,
+				22EC5547781A7A0BA9B1C52A6D580676 /* Support Files */,
+			);
+			name = "GoogleMD-Icons";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7CB79BC6B281A5E144DEA75BEAF72D5D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2DD39E9A01CF1B5B0214AFB5E7D35F1 /* Pods-GoogleMD-Icons_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9183027CE21DFEE7831E8208984ABAD3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EE2F4A1947DDEC93DFAA2D40B6C4B4A /* GoogleMD-Icons-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8203D2A747F16B8E29425CBDC2061155 /* Pods-GoogleMD-Icons_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88C6CC90799E18D2522A28C17B320CFF /* Build configuration list for PBXNativeTarget "Pods-GoogleMD-Icons_Tests" */;
+			buildPhases = (
+				02B11159882F4E214C2C408BE4E20263 /* Sources */,
+				FC078022DE503F507E5C73852B29CF59 /* Frameworks */,
+				7CB79BC6B281A5E144DEA75BEAF72D5D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C88473B8363EFC00942C3695168A9D70 /* PBXTargetDependency */,
+			);
+			name = "Pods-GoogleMD-Icons_Tests";
+			productName = "Pods-GoogleMD-Icons_Tests";
+			productReference = F4078F6A5F092D2DC81A06B5E503A475 /* Pods_GoogleMD_Icons_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BB8A65A119B03A3C7C8A08F29845F894 /* GoogleMD-Icons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F09A7C3E3AA5A98F965D2784FED17183 /* Build configuration list for PBXNativeTarget "GoogleMD-Icons" */;
+			buildPhases = (
+				1E0FE1DE9557A574A284E22CD398FA25 /* Sources */,
+				46AA07C95A52F0DB5C18943C8B77CD5A /* Frameworks */,
+				9183027CE21DFEE7831E8208984ABAD3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GoogleMD-Icons";
+			productName = "GoogleMD-Icons";
+			productReference = 1D3BC66A22B8DDBA42890A0D4864BE6A /* GoogleMD_Icons.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B34BC5404EFA1E6BC317A0385ECDE015 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB8A65A119B03A3C7C8A08F29845F894 /* GoogleMD-Icons */,
+				8203D2A747F16B8E29425CBDC2061155 /* Pods-GoogleMD-Icons_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02B11159882F4E214C2C408BE4E20263 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD942DE63E896C020BBDED7A7803749 /* Pods-GoogleMD-Icons_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E0FE1DE9557A574A284E22CD398FA25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9752FB1210A67B8001A5A8E /* GoogleMDIconsType.swift in Sources */,
+				93DBC7D6597CA1DA57CADFF1C49F8C3B /* GoogleMD-Icons-dummy.m in Sources */,
+				D79E303F83AD983AD7E9700DF397667A /* GoogleMDIcons.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C88473B8363EFC00942C3695168A9D70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GoogleMD-Icons";
+			target = BB8A65A119B03A3C7C8A08F29845F894 /* GoogleMD-Icons */;
+			targetProxy = 272E8E959944190BE92576005C9EC653 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3880B665C57646294AC30100770A8AD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EFB6A2C2A8F2EEAA7E58A47E1E96D02 /* GoogleMD-Icons.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleMD-Icons/GoogleMD-Icons-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleMD-Icons/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleMD-Icons/GoogleMD-Icons.modulemap";
+				PRODUCT_MODULE_NAME = GoogleMD_Icons;
+				PRODUCT_NAME = GoogleMD_Icons;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5FA6D6FE4D5FA3EF41ABCF3D1745861D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A2097564BC550BA61957F6D88189FDF /* Pods-GoogleMD-Icons_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GoogleMD-Icons_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GoogleMD-Icons_Tests/Pods-GoogleMD-Icons_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		693EA0F10A4EA862B3CD6766E9AE6E7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EFB6A2C2A8F2EEAA7E58A47E1E96D02 /* GoogleMD-Icons.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleMD-Icons/GoogleMD-Icons-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleMD-Icons/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleMD-Icons/GoogleMD-Icons.modulemap";
+				PRODUCT_MODULE_NAME = GoogleMD_Icons;
+				PRODUCT_NAME = GoogleMD_Icons;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9CD52526C64D855F66A9A9569BF59412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CF79F6ECB0A71C5A5B720875E2273D9 /* Pods-GoogleMD-Icons_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GoogleMD-Icons_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GoogleMD-Icons_Tests/Pods-GoogleMD-Icons_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88C6CC90799E18D2522A28C17B320CFF /* Build configuration list for PBXNativeTarget "Pods-GoogleMD-Icons_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FA6D6FE4D5FA3EF41ABCF3D1745861D /* Debug */,
+				9CD52526C64D855F66A9A9569BF59412 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F09A7C3E3AA5A98F965D2784FED17183 /* Build configuration list for PBXNativeTarget "GoogleMD-Icons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3880B665C57646294AC30100770A8AD0 /* Debug */,
+				693EA0F10A4EA862B3CD6766E9AE6E7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

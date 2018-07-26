@@ -1,0 +1,16 @@
+PODS:
+  - GoogleMD-Icons (0.1.0)
+
+DEPENDENCIES:
+  - GoogleMD-Icons (from `../`)
+
+EXTERNAL SOURCES:
+  GoogleMD-Icons:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GoogleMD-Icons: 3598ce92c481daaf1447671064f00c036b996292
+
+PODFILE CHECKSUM: ab60201b00a3b08b97fd505f8d60f1a59d971cb8
+
+COCOAPODS: 1.5.3

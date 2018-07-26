@@ -1,0 +1,6 @@
+framework module GoogleMD_Icons {
+  umbrella header "GoogleMD-Icons-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_GoogleMD_Icons_Tests {
+  umbrella header "Pods-GoogleMD-Icons_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
