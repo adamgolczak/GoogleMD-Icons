@@ -1,5 +1,5 @@
 import XCTest
-import GoogleMD-Icons
+import GoogleMD_Icons
 
 class Tests: XCTestCase {
     
