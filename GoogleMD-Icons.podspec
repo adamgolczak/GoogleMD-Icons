@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GoogleMD-Icons'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Google Material Design Icons Library'
 
 # This description is used to generate tags and improve search results.
@@ -18,18 +18,18 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  s.swift_version = '>= 3.2, <= 4.0'
+  s.swift_version = '4.1'
 TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/adamgolczak/GoogleMD-Icons'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'adamgolczak' => 'adam.golczak@gmail.com' }
+  s.author           = { 'adamgolczak' => 'adam@pxlborn.com' }
   s.source           = { :git => 'https://github.com/adamgolczak/GoogleMD-Icons.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'GoogleMD-Icons/Classes/**/*'
   
