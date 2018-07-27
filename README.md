@@ -1,7 +1,5 @@
 [![GoogleMD-Icons](https://raw.githubusercontent.com/adamgolczak/GoogleMD-Icons/master/logo.png)]()
 
-# GoogleMD-Icons
-
 [![CI Status](https://img.shields.io/travis/adamgolczak/GoogleMD-Icons.svg?style=flat)](https://travis-ci.org/adamgolczak/GoogleMD-Icons)
 [![Version](https://img.shields.io/cocoapods/v/GoogleMD-Icons.svg?style=flat)](https://cocoapods.org/pods/GoogleMD-Icons)
 [![License](https://img.shields.io/cocoapods/l/GoogleMD-Icons.svg?style=flat)](https://cocoapods.org/pods/GoogleMD-Icons)
