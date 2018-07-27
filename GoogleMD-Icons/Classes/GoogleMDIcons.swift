@@ -39,6 +39,7 @@ public extension UIImage {
             NSAttributedStringKey.paragraphStyle: paragraph]
         let lineHeight = mdFont!.lineHeight
         let attributedString = NSAttributedString(string: type.text!, attributes: attributes)
+        
         UIGraphicsBeginImageContextWithOptions(size, false , 0.0)
         attributedString.draw(in: CGRect(x: 0, y: (size.height - lineHeight) * 0.5, width: size.width, height: lineHeight))
         let image = UIGraphicsGetImageFromCurrentImageContext()
