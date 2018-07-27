@@ -49,6 +49,8 @@ You can start using the library by importing it wherever you want
 import GoogleMD_Icons
 ```
 
+## Usage
+
 ### UIImage
 
 ```Swift
