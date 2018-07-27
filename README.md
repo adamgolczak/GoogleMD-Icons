@@ -12,6 +12,7 @@ Easy way to use Google Material Design Icons in your app.
 - iOS 9.0+
 - Xcode 8
 
+
 ## Installation
 
 ### CocoaPods
@@ -82,13 +83,13 @@ imageView = UIImageView.googleMDIcon(icon: .accountBalance, size: CGSize(width: 
 // Set icon with color and icon code
 imageView = UIImageView.googleMDIcon(icon: GoogleMDIconType(name: "accountBalance")!, size: CGSize(width: 150.0, height: 150.0), color: .orange)
 
-
 ```
+
 
 ## Author
 
-Adam Golczak
-- adam@pxlborn.com
+Adam Golczak (adam@pxlborn.com)
+
 
 ## License
 
