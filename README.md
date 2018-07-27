@@ -1,3 +1,5 @@
+[![GoogleMD-Icons](https://raw.githubusercontent.com/adamgolczak/GoogleMD-Icons/master/logo.png)]()
+
 # GoogleMD-Icons
 
 [![CI Status](https://img.shields.io/travis/adamgolczak/GoogleMD-Icons.svg?style=flat)](https://travis-ci.org/adamgolczak/GoogleMD-Icons)

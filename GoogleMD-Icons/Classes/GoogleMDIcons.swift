@@ -56,23 +56,23 @@ public extension UIImageView {
     }
 }
 
-//public extension UILabel {
-//    public static func googleMDIcon(icon type: GoogleMDIconType, size: CGFloat, color: UIColor = .black) -> UILabel {
-//        let fileName: String = "MaterialIcons"
-//        let fontName: String = "MaterialIcons-Regular"
-//
-//        FontLoader.loadFont(name: fileName)
-//
-//        let label = UILabel()
-//        let mdFont = UIFont(name: fontName, size: size)
-//        label.text = type.text
-//        label.font = mdFont
-//        label.textColor = color
-//        label.textAlignment = .center
-//
-//        return label
-//    }
-//}
+public extension UILabel {
+    public static func googleMDIcon(icon type: GoogleMDIconType, size: CGFloat, color: UIColor = .black) -> UILabel {
+        let fileName: String = "MaterialIcons"
+        let fontName: String = "MaterialIcons-Regular"
+
+        FontLoader.loadFont(name: fileName)
+
+        let label = UILabel()
+        let mdFont = UIFont(name: fontName, size: size)
+        label.text = type.text
+        label.font = mdFont
+        label.textColor = color
+        label.textAlignment = .center
+
+        return label
+    }
+}
 
 private class FontLoader {
     class func loadFont(name: String) {
