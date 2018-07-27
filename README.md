@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/GoogleMD-Icons.svg?style=flat)](https://cocoapods.org/pods/GoogleMD-Icons)
 [![Platform](https://img.shields.io/cocoapods/p/GoogleMD-Icons.svg?style=flat)](https://cocoapods.org/pods/GoogleMD-Icons)
 
-Easy way to use Google Material Design Icons in your app.
+An easy way to use Google Material Design Icons in your app.
 
 ## Requirements
 
