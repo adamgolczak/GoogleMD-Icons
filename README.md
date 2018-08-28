@@ -64,7 +64,7 @@ imageView.image = UIImage.googleMDIcon(icon: .accountBalance, size: CGSize(width
 imageView.image = UIImage.googleMDIcon(icon: .accountBalance, size: CGSize(width: 150.0, height: 150.0), color: .orange)
 
 // Set icon with color and icon code
-imageView.image = UIImage.googleMDIcon(icon: GoogleMDIconType(name: "accountBalance")!, size: CGSize(width: 150.0, height: 150.0), color: .orange)
+imageView.image = UIImage.googleMDIcon(icon: GoogleMDIconType(name: "account_balance")!, size: CGSize(width: 150.0, height: 150.0), color: .orange)
 
 ```
 
@@ -81,7 +81,7 @@ imageView = UIImageView.googleMDIcon(icon: .accountBalance, size: CGSize(width: 
 imageView = UIImageView.googleMDIcon(icon: .accountBalance, size: CGSize(width: 150.0, height: 150.0), color: .orange)
 
 // Set icon with color and icon code
-imageView = UIImageView.googleMDIcon(icon: GoogleMDIconType(name: "accountBalance")!, size: CGSize(width: 150.0, height: 150.0), color: .orange)
+imageView = UIImageView.googleMDIcon(icon: GoogleMDIconType(name: "account_balance")!, size: CGSize(width: 150.0, height: 150.0), color: .orange)
 
 ```
 
